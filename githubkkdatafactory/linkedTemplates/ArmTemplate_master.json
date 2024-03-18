@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "githubkkdatafactory"
 		},
+		"AzureDataLakeStoragegen2forGit_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStoragegen2forGit'"
+		},
+		"AzureDataLakeStoragegen2forGit_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://adlskrishna.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +41,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureDataLakeStoragegen2forGit_accountKey": {
+						"value": "[parameters('AzureDataLakeStoragegen2forGit_accountKey')]"
+					},
+					"AzureDataLakeStoragegen2forGit_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStoragegen2forGit_properties_typeProperties_url')]"
 					}
 				}
 			},

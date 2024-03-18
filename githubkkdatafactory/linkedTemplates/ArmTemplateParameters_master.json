@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "githubkkdatafactory"
 		},
+		"AzureDataLakeStoragegen2forGit_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStoragegen2forGit_properties_typeProperties_url": {
+			"value": "https://adlskrishna.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},
