@@ -1,0 +1,9 @@
+{
+	"name": "githubkkdatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "24080e33-86b4-4567-9e39-127f0acfef39",
+		"tenantId": "de45a50d-90ca-4e23-b909-0fb176ddcf4f"
+	}
+}
